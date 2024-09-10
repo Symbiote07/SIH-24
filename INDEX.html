@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bail Reckoner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bail Reckoner</h1>
+  <form id="bail-form">
+    <label for="crime">Crime:</label>
+    <input type="text" id="crime" name="crime">
+    <br>
+    <label for="time-served">Time Served:</label>
+    <input type="number" id="time-served" name="time-served">
+    <br>
+    <label for="risk-of-flight">Risk of Flight:</label>
+    <select id="risk-of-flight" name="risk-of-flight">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <br>
+    <button type="submit">Calculate</button>
+  </form>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
